@@ -350,7 +350,12 @@ footer {
     .section_3_left {
         display: none;
     }
+
+    .section_3_right {
+        border-bottom: 1px white solid;
+    }
 }
+    
 
 @media (max-width: 760px) {
     .section_6{
