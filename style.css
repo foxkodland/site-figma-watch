@@ -312,6 +312,12 @@ footer {
     }
 }
 
+@media (max-width: 1110px) {
+    .section_5 img {
+        width: 20%;
+    }
+}
+
 @media (max-width: 1000px) {
     header a {
         margin: 0;
@@ -371,6 +377,10 @@ footer {
     .section_1 > p{
         width: 80%;
     }
+
+    .section_5 img {
+        width: 40%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -422,6 +432,10 @@ footer {
     .section_2 .cards {
         padding-left: 5px;
         padding-right: 5px;
+    }
+
+    .section_5 {
+        padding: 30px 0;
     }
 
 }
