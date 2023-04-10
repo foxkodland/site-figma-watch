@@ -2,4 +2,5 @@
 #
 Доступен по url https://foxkodland.github.io/site-figma-watch/
 
+![image](https://user-images.githubusercontent.com/102648390/230964665-9e7a46de-3a9d-49e2-bd4a-d94bf1298765.png)
 
