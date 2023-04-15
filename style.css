@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Playfair+Display&display=swap');
+
 *{
     margin: 0;
 }
@@ -7,7 +8,7 @@ body {
     margin: 0;
     color: white;
     /* font-family: 'Domine', serif; */
-font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
 
 }
 
@@ -68,13 +69,13 @@ header a:hover{
     width: 25%;
 }
 
-.card > .top {
+.card__top {
     background-color: #383838;
     padding: 40px 5px;
     margin-bottom: 10px;
 }
 
-.card > .bot {
+.card__bot {
     background-color: #000000;
     display: flex;
     flex-direction: column;
@@ -101,7 +102,8 @@ header a:hover{
 }
 
 .section_1 .line {
-    margin: 5px auto;
+    margin-top: 0;
+    margin-bottom: 5px;
     width: 145px;
 }
 
@@ -115,14 +117,13 @@ header a:hover{
     align-items: center;
 }
 
-
-.section_1>p{
+.s1_text {
     width: 50%;
     text-align: center;
 }
 
 .section_1 h2 {
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
     font-size: 38px;
 }
 
@@ -174,14 +175,14 @@ header a:hover{
     display: flex;
 }
 
-.section_3_left {
+.section_3__left {
     width: 45%;
     background-image: url('img/3\ section\ new_collection.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.section_3_right {
+.section_3__right {
     width: 65%;
     background-color: black;
     padding: 50px 0;
@@ -190,10 +191,14 @@ header a:hover{
     align-items: center;
 }
 
-.section_3_right>p {
-  width: 70%;
-  text-align: center;
-  margin: 45px 0;
+.section_3__right > p {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section_3__right .line {
+    margin-bottom: 45px;
 }
 
 
@@ -340,18 +345,18 @@ footer {
     }
     .section_2__left,
     .section_2__right,
-    .section_3_right {
+    .section_3__right {
         width: 100%;
     }
 
     .section_2__right{
         padding-top: 200px;
     }
-    .section_3_left {
+    .section_3__left {
         display: none;
     }
 
-    .section_3_right {
+    .section_3__right {
         border-bottom: 1px white solid;
     }
 }
@@ -379,7 +384,7 @@ footer {
         padding: 50px 0;
     }
     
-    .section_1 > p{
+    .s1_text {
         width: 80%;
     }
 
@@ -429,7 +434,7 @@ footer {
         font-size: 25px;
     }
 
-    .section_3_right > p {
+    .section_3__right > p {
         margin-top: 0;
         width: 90%;
     }
